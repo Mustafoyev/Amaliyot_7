@@ -1,0 +1,116 @@
+body {
+  background-color: #16a085;
+}
+
+.site-section {
+  padding: 150px 0 350px;
+}
+
+.section__inner {
+  position: relative;
+  padding: 50px 70px 250px 70px;
+  margin: 0 auto;
+  width: 800px;
+  overflow: hidden;
+  background-color: #ffffff;
+  border-radius: 6px;
+}
+
+.section__inner::after {
+  position: absolute;
+  bottom: calc(50% - 545px);
+  width: 800px;
+  height: 580px;
+  background-image: url("../images/bicycle.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  content: "";
+}
+
+.section__wrapper {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 50px;
+}
+
+.section__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.section__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.section__link {
+  padding: 9px;
+  display: inline-block;
+  margin-left: auto;
+  text-decoration: none;
+  border: 2px solid transparent;
+  border-radius: 50%;
+}
+
+.img__wrapper {
+  display: block;
+}
+
+.section__img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.section__link:hover {
+  border: 2px solid #e3e3e3;
+  border-radius: 50%;
+}
+
+.text-one {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.7;
+}
+
+.str {
+  margin-left: auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: right;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.text-two {
+  display: flex;
+  align-items: center;
+}
+
+.text-three {
+  display: flex;
+  align-items: center;
+}
+
+.text-pone {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  text-transform: capitalize;
+  color: #000000;
+  opacity: 0.7;
+}
