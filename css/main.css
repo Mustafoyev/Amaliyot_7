@@ -94,6 +94,7 @@ body {
   font-size: 24px;
   line-height: 29px;
   text-align: right;
+  text-decoration: none;
   text-transform: capitalize;
   color: #000000;
 }
